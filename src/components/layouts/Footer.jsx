@@ -18,7 +18,7 @@ function Footer(){
     }, [])
     return(
         <footer ref={div_ref} className={styles.footer}>
-            <span>Desenvolvido por: <a href="https://github.com/euBrunoLima" target='_blanck'>Bruno Lima</a></span>
+            <span>Desenvolvido por: <a target='_blanck'>João Pedro Toaldo</a></span>
         </footer>
     )
 }

@@ -21,7 +21,7 @@ function Capivara() {
             <Button text="Clique aqui" onClick={toggleCapivara} />
             {showCapivara && 
                 <div className={styles.capivara_container}>
-                    <div className={styles.capivara_circle}>
+                        <div className={styles.capivara_circle}>
                         <span></span>
                         <span></span>
                         <span></span>

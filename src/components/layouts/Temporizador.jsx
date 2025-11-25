@@ -47,12 +47,12 @@ const ProgressCircle = ({ value, max, unit }) => {
 // Componente principal
 export default function Temporizador() {
   const [time, setTime] = useState({
-    years: 2,
-    months: 4,
-    days: 17,
+    years: 0,
+    months: 3,
+    days: 22,
     hours: 2,
     minutes: 2,
-    seconds: 20
+    seconds: 26
   });
 
   useEffect(() => {
