@@ -1,4 +1,4 @@
-## 🛠️ Tecnologias e bibliotecas
+## Tecnologias e bibliotecas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -11,10 +11,9 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [react-countdown-circle-timer](https://www.npmjs.com/package/react-countdown-circle-timer) — Contador animado em formato circular
 
 
-## 📦 Deploy
+## Deploy
 
 O deploy é feito no GitHub Pages. Para gerar a build e publicar:
 ```sh
 npm run deploy
 ```
-

@@ -17,16 +17,16 @@ const Carrossel = () => {
         <div className={`${styles.carrossel_container} ${anima.fadeIn}`}>
             <Slider className={styles.slider} {...settings}>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/90/7a/6a/907a6acd620fd86565cb68b4191cf34a.jpg" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/11/0d/b0/110db086a88ab4ae2963514a9aa7b2e9.jpg"alt="" />
+                    <img src="https://i.pinimg.com/736x/6a/6d/69/6a6d69d44a73c53a8225a4a137bd5686.jpg"alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/01/77/67/0177675f0669045e06dc23df8c8d1692.jpg" alt="" />
+                    <img src="https://static.wixstatic.com/media/643552_69102a85f55d4385a5fcd7aa75555601~mv2.png/v1/fill/w_484,h_484,al_c,lg_1,q_85,enc_avif,quality_auto/643552_69102a85f55d4385a5fcd7aa75555601~mv2.png" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/71/ab/b9/71abb9f3d0d694afc6402c2b0114d812.jpg" alt="" />
+                    <img src="https://i.pinimg.com/474x/22/14/be/2214be39b2580b1fbdd8aae918dec291.jpg" alt="" />
                 </div>
             </Slider>
         </div>        
