@@ -22,16 +22,16 @@ const Carrossel = () => {
         <div className={`${styles.carrossel_container} ${anima.fadeIn}`}>
             <Slider className={styles.slider} {...settings}>
                 <div className={styles.carrossel_img}>
-                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image1.jpeg?raw=true" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/8a9a764ee51a16bc92cc3513fd6029c45d61b211/assets/image1-a1YM2-_v.jpeg?raw=true" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image2.jpg?raw=true" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/8a9a764ee51a16bc92cc3513fd6029c45d61b211/assets/image2-BThxI1Nv.jpg?raw=true" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://raw.githubusercontent.com/Joaoptoaldo/card/refs/heads/main/src/components/images/image3.avif" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/8a9a764ee51a16bc92cc3513fd6029c45d61b211/assets/image3-BH538EzZ.avif" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image4.jpg?raw=true" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/8a9a764ee51a16bc92cc3513fd6029c45d61b211/assets/image4-CYfI-JEN.jpg?raw=true" alt="" />
                 </div>
             </Slider>
         </div>        
