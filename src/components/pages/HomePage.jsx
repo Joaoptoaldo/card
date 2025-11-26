@@ -17,7 +17,7 @@ function HomePage() {
             <Temporizador />
             <Mensagem
                 mensagem_p1={"Mais um trabalhinho que me faz lembrar o quanto sou feliz por ter você ao meu lado. Cada momento contigo, por mais simples que seja, se torna especial só por ter a sua presença."}
-                mensagem_p2={"Obrigado por ser meu porto seguro, meu sorriso fácil e meu lugar favorito no mundo. Que a gente continue cultivando esse amor todos os dias."}
+                mensagem_p2={"Obrigado por ser meu porto seguro, meu sorriso fácil e meu lugar favorito no mundo. Que a gente continue cultivando esse amor todos os dias"}
             />
             <Capivara />
             <Footer/>
