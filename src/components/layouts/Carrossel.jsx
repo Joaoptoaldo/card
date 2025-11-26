@@ -1,10 +1,6 @@
 import Slider from "react-slick";
 import styles from './Carrossel.module.css';
 import anima from '../../styles/animations.module.css';
-import image1 from '../images/image1.jpeg';
-import image2 from '../images/image2.jpg';
-import image3 from '../images/image3.avif';
-import image4 from '../images/image4.jpg';
 
 const Carrossel = () => {
     const settings = {
