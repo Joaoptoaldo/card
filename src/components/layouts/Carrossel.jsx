@@ -21,7 +21,7 @@ const Carrossel = () => {
                     <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lfeartac0oot5c" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVILWJKf4xQTEoKkigH8O1bCt4LxIBJCtpBrT3357cAbyM898AtoZfTmOg4zkDYvVU3R4&usqp=CAU" alt="" />
