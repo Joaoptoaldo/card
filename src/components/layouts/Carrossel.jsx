@@ -2,7 +2,6 @@ import Slider from "react-slick";
 import styles from './Carrossel.module.css';
 import anima from '../../styles/animations.module.css';
 
-
 const Carrossel = () => {
     const settings = {
         dots: true,
@@ -19,20 +18,19 @@ const Carrossel = () => {
         <div className={`${styles.carrossel_container} ${anima.fadeIn}`}>
             <Slider className={styles.slider} {...settings}>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image1.jpeg?raw=true" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/6a/6d/69/6a6d69d44a73c53a8225a4a137bd5686.jpg" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image2.jpg?raw=true" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://static.wixstatic.com/media/643552_69102a85f55d4385a5fcd7aa75555601~mv2.png/v1/fit/w_500,h_500,q_90/file.png" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image3.avif?raw=true" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/22/14/be/2214be39b2580b1fbdd8aae918dec291.jpg" alt="" />
+                    <img src="https://github.com/Joaoptoaldo/card/blob/main/src/components/images/image4.jpg?raw=true" alt="" />
                 </div>
             </Slider>
         </div>        
-        
     );
 }
 
