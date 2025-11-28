@@ -48,11 +48,11 @@ const ProgressCircle = ({ value, max, unit }) => {
 export default function Temporizador() {
   const [time, setTime] = useState({
     years: 0,
-    months: 3,
-    days: 22,
+    months: 4,
+    days: 16,
     hours: 2,
     minutes: 2,
-    seconds: 26
+    seconds: 50,
   });
 
   useEffect(() => {

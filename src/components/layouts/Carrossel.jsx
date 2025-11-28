@@ -21,13 +21,13 @@ const Carrossel = () => {
                     <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7qukw-lfeartac0oot5c" alt="" />
-                </div>
-                <div className={styles.carrossel_img}>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVILWJKf4xQTEoKkigH8O1bCt4LxIBJCtpBrT3357cAbyM898AtoZfTmOg4zkDYvVU3R4&usqp=CAU" alt="" />
-                </div>
-                <div className={styles.carrossel_img}>
                     <img src="https://i.pinimg.com/736x/22/14/be/2214be39b2580b1fbdd8aae918dec291.jpg" alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src="https://i.pinimg.com/736x/7e/36/3b/7e363bf6e1ab4359a15ebdb9895bfd10.jpg" alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src="https://www.meuzapzap.com/imagens/thumb/meuzapzap14120822034940Screenshot20220812164708Instagram.jpg" alt="" />
                 </div>
             </Slider>
         </div>        
