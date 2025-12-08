@@ -31,13 +31,13 @@ function Capivara() {
                     </div>
                     <div className={styles.capivara_images}>
                         <img className={styles.inverted_radius}
-                        src={imagem1} alt="Capivara" />
+                        src={imagem4} alt="Capivara" />
                         <img className={styles.inverted_radius}
                         src={imagem2} alt="Capivara" />  
                         <img className={styles.inverted_radius}
                         src={imagem3} alt="Capivara" /> 
                         <img className={styles.inverted_radius}
-                        src={imagem4} alt="Capivara" />      
+                        src={imagem1} alt="Capivara" />      
                     </div>
                 </div>
             }
