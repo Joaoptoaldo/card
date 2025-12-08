@@ -13,7 +13,7 @@ function HomePage() {
         <ContainerLayout>
             <SpotifyPlayer />
             <Carrossel />
-            <DiasJuntos tempoJuntos={"0 anos, 4 meses, 16 dias, 2 horas, 2 minutos e 56 segundos."} />
+            <DiasJuntos tempoJuntos={"4 meses, 16 dias, 2 horas, 2 minutos e 56 segundos."} />
             <Temporizador />
             <Mensagem
                 mensagem_p1={
