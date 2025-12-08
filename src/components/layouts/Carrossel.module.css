@@ -1,31 +1,26 @@
 .carrossel_container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    min-height: 55vh;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 5px 4px 0px rgba(255, 0, 130, 0.5);
-
+    background: linear-gradient(90deg, #e5005a 0%, #b800c9 50%, #8a00ff 100%);
 }
-.slider{
-    margin: 0 auto;
+
+.slider {
     width: 100%;
-    height: 55vh;
-
+    margin: 0;
 }
 
-.carrossel_img{
-    height: 55vh;
+.carrossel_img {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.carrossel_img > img{
+.carrossel_img > img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-
+    height: auto;
+    display: block;   /* remove espaço como se fosse texto */
+    /* sem border-radius aqui */
 }
-
-
-

@@ -2,7 +2,7 @@ import styles from './Mensagem.module.css';
 import { useEffect, useRef } from 'react';
 import ScrollReveal from 'scrollreveal';
 
-function Mensagem({ mensagem_p1, mensagem_p2, remetente = "João Pedro" }) {
+function Mensagem({ mensagem_p1, mensagem_p2, mensagem_p3, mensagem_p4, mensagem_p5, mensagem_p6, mensagem_p7, remetente = "João Pedro" }) {
 
   const containerRef = useRef(null);
 
@@ -22,7 +22,12 @@ function Mensagem({ mensagem_p1, mensagem_p2, remetente = "João Pedro" }) {
         <h1>Para Meu Amor:</h1>
         <div className={styles.paragrafo_romantico}>
             <p>{mensagem_p1 }</p>
-            <p>{mensagem_p2 + "❤️❤️❤️"}</p>
+            <p>{mensagem_p2 }</p>
+            <p>{mensagem_p3 }</p>
+            <p>{mensagem_p4 }</p>
+            <p>{mensagem_p5 }</p>
+            <p>{mensagem_p6 }</p>
+            <p>{mensagem_p7 + "❤️❤️❤️"}</p>
             <p>Com todo meu amor, </p>
             <p>{remetente}</p>
         </div>
