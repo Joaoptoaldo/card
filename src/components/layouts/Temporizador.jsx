@@ -49,10 +49,10 @@ export default function Temporizador() {
   const [time, setTime] = useState({
     years: 0,
     months: 4,
-    days: 16,
+    days: 17,
     hours: 2,
-    minutes: 2,
-    seconds: 50,
+    minutes: 19,
+    seconds: 39,
   });
 
   useEffect(() => {
