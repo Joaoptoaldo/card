@@ -3,7 +3,7 @@
     margin: 0 auto;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 5px 4px 0px rgba(255, 0, 130, 0.5);
+    box-shadow: 5px 1px 100px #e5005a;
     background: linear-gradient(90deg, #e5005a 0%, #b800c9 50%, #8a00ff 100%);
 }
 
@@ -21,6 +21,5 @@
 .carrossel_img > img {
     width: 100%;
     height: auto;
-    display: block;   /* remove espaço como se fosse texto */
-    /* sem border-radius aqui */
+    display: block;   
 }
