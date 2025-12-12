@@ -35,7 +35,10 @@ function HomePage() {
                     "Sonho com tudo o que ainda vamos viver, com as memórias que ainda vamos criar, com as risadas que ainda vamos dividir e com o futuro que mesmo incerto, fica mais bonito quando imagino você nele. Sonho porque você é, sem perceber, o tipo de presença que dá sentido às coisas."
                 }
                 mensagem_p7={
-                    "Obrigado por ser meu porto seguro, meu sorriso fácil e meu lugar favorito no mundo. Que a gente continue cultivando esse amor todos os dias"
+                    "Quero estar presente em cada passo desse caminho: celebrar suas conquistas, te amparar nos dias difíceis e compartilhar as rotinas simples que nos aproximam. Prometo cuidar desse amor com atenção, te ouvindo, apoiando e fazendo do nosso cotidiano um refúgio de cumplicidade e carinho."
+                }
+                mensagem_p8={
+                    "Você não é só minha namorada. Você é a minha felicidade, meu porto seguro, meu sorriso fácil e o meu lugar favorito no mundo. Você é simplesmente o amor da minha vida inteira. Que a gente continue cultivando esse amor todos os dias"
                 }
             />
             <Capivara />
