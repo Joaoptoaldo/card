@@ -1,5 +1,5 @@
 .mensagem_container{
-    height: 1290px; 
+    border-radius: 20px;
     padding: 0 21px;
     margin-top: 1.8rem;
 }
@@ -11,8 +11,10 @@
 }
 
 .paragrafo_romantico p{
+    color: #e0e0e0;
+    font-size: 1rem;
     text-indent: 20px; 
-    line-height: 1.4;  /* opcional: melhora a leitura */
+    line-height: 1.6;  /* opcional: melhora a leitura */
     margin-bottom: 1rem; /* espaço entre os parágrafos */
     text-align: justify;
     font-size: .96rem;

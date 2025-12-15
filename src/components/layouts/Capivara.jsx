@@ -10,6 +10,7 @@ import imagem4 from '../images/capivara4.gif';
 
 
 
+
 function Capivara() {
     const [showCapivara, setShowCapivara] = useState(false);
     function toggleCapivara() {
