@@ -30,6 +30,9 @@ const Carrossel = () => {
                     <img src="https://down-br.img.susercontent.com/file/sg-11134201-22110-i6s1ea1aqqjv1b" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
+                    <img src="https://scontent.cdninstagram.com/v/t39.30808-6/515013270_122167717766389688_2894338927276776736_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzY3NTkxNDU3MTg3MzU4MTU2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=uvAPlv7_Eu4Q7kNvwGhv-Xk&_nc_oc=AdnyFNQ8KQ8UQMH22xJhixQ7lAgmlVBMn6Fp4obnixwuj1LoFcjkX2J91GmSO9StRYVoXLxXKomR15LevkodxfWe&_nc_ad=z-m&_nc_cid=1138&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=67GULBl5dDDMbX8sqXarNw&oh=00_AfmOBeMuO0tty_3RDYp8tWVX-wIycH0VXnxppZFZkAJJAg&oe=69463E97" alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
                     <img src="https://down-br.img.susercontent.com/file/deb5c93c740517e30cb812cd047f799d" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
@@ -42,6 +45,10 @@ const Carrossel = () => {
                     <img src="https://www.meuzapzap.com/imagens/thumb/meuzapzap14120822034940Screenshot20220812164708Instagram.jpg" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-luowve00d7c02f" alt="" />
+                </div>
+
+                <div className={styles.carrossel_img}>
                     <img src="https://i.pinimg.com/736x/7e/36/3b/7e363bf6e1ab4359a15ebdb9895bfd10.jpg" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
@@ -49,6 +56,9 @@ const Carrossel = () => {
                 </div>
                 <div className={styles.carrossel_img}>
                     <img src="https://i.pinimg.com/564x/65/bb/1e/65bb1e0c6ce1b7dba58a7065b02a48c6.jpg" alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src="https://i.pinimg.com/736x/04/bb/f4/04bbf4b86e46323df9e323e878c5f96f.jpg" alt="" />
                 </div>
 
                 <div className={styles.carrossel_img}>
@@ -63,6 +73,7 @@ const Carrossel = () => {
                 <div className={styles.carrossel_img}>
                     <img src="https://down-br.img.susercontent.com/file/01246ccdf1456305feb632e045babeed" alt="" />
                 </div>
+                
                 <div className={styles.carrossel_img}>
                     <img src="https://shop.bazarcia.com/wp-content/uploads/2022/03/Design-sem-nome-37.jpg" alt="" />
                 </div>
