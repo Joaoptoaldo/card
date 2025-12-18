@@ -60,18 +60,30 @@ const Carrossel = () => {
                 <div className={styles.carrossel_img}>
                     <img src="https://i.pinimg.com/736x/04/bb/f4/04bbf4b86e46323df9e323e878c5f96f.jpg" alt="" />
                 </div>
+                <div className={styles.carrossel_img}>
+                    <img src="https://meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-7.jpg" alt="" />
+                </div>
 
                 <div className={styles.carrossel_img}>
                     <img src="https://wearsublimacoes.cdn.magazord.com.br/img/2024/12/produto/84829/c09770e9b6.jpeg" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
+                    <img src="https://cdn.statically.io/img/meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-1-1.jpg?quality=80&f=auto" alt="" />
+                </div>
+
+                <div className={styles.carrossel_img}>
                     <img src="https://i.pinimg.com/474x/2a/b3/cc/2ab3cc4a2cc56c7520bd5ac07931a118.jpg" alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://cdn.statically.io/img/meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-1-1.jpg?quality=80&f=auto" alt="" />
+                    <img src="https://meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-5.jpg" alt="" />
                 </div>
+               
                 <div className={styles.carrossel_img}>
                     <img src="https://down-br.img.susercontent.com/file/01246ccdf1456305feb632e045babeed" alt="" />
+                </div>
+
+                <div className={styles.carrossel_img}>
+                    <img src="https://scontent.cdninstagram.com/v/t51.75761-15/479186578_17958763133908962_7255332889527486595_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzU2Nzg5NjUxOTc0NDUwNjc0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=dc5SBDU7vs8Q7kNvwFr2jaV&_nc_oc=AdktNmcRMcAhjY7tFujcBYHLP4go1S3NCqdP1VZn4Tdqy0eiWH2hladYDR3BdOMz9ro&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=re2cBrRM5y4HwVamjhO2Uw&oh=00_AfnpuBrUBVC69tMdPU4MJmz9oHNJPeoN7nI_MlOXgA4iGA&oe=69492D95" alt="" />
                 </div>
                 
                 <div className={styles.carrossel_img}>

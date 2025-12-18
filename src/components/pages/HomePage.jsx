@@ -16,8 +16,11 @@ function HomePage() {
             <DiasJuntos tempoJuntos={"4 meses, 17 dias, 2 horas, 19 minutos e 42 segundos."} />
             <Temporizador />
             <Mensagem
+                mensagem_p0={
+                    "Você acha mesmo que eu ia encerrar esse ano como se fosse só mais um? Logo esse, que ficou marcado pra sempre como o ano em que eu te conheci? Jamais! Não podia deixar passar em branco a oportunidade de te lembrar o quanto você é importante pra mim."
+                }
                 mensagem_p1={
-                    "Mais um trabalhinho que me faz lembrar o quanto sou feliz por ter você ao meu lado. Cada momento contigo, por mais simples que seja, se torna especial só por ter a sua presença."
+                    "Esse é mais um trabalhinho que me faz lembrar o quanto sou feliz por ter você ao meu lado. Cada momento contigo, por mais simples que seja, se torna especial só por ter a sua presença."
                 }
                 mensagem_p2={
                     "Sempre que lembro das nossas conversas, das brincadeiras, dos cuidados e até das madrugadas cheias de planos e risadas, percebo o quanto você se tornou essencial para mim. Sempre foi diferente com você, desde o começo, aquele tipo de conexão que a gente reconhece antes mesmo de entender."
