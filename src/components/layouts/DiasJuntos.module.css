@@ -5,10 +5,15 @@
     flex-direction: column;
     gap: 11px;
     margin-top: 1rem;
-
 }
+
 .dias_juntos_container > h1{
     font-size: 1.1rem;
+    text-shadow: 0 0 10px #ff0081;
+    background: linear-gradient(45deg, #ff0081, #ff69b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .dias_juntos_container > p{

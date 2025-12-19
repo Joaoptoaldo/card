@@ -1,5 +1,6 @@
+import { useEffect } from 'react';
 import ContainerLayout from "../layouts/ContainerLayout";
-import SpotifyPlayer from "../layouts/SpotifyPlayer"; 
+import SpotifyPlayer from "../layouts/SpotifyPlayer";
 import Carrossel from "../layouts/Carrossel";
 import DiasJuntos from "../layouts/DiasJuntos";
 import Mensagem from "../layouts/Mensagem";
@@ -9,6 +10,20 @@ import Footer from "../layouts/Footer";
 
 
 function HomePage() {
+    useEffect(() => {
+        document.body.style.background = '#000000';
+        document.body.style.color = '#e2e2e2';
+        document.body.style.position = 'relative';
+        document.body.style.overflowX = 'hidden';
+
+        return () => {
+            document.body.style.background = '';
+            document.body.style.color = '';
+            document.body.style.position = '';
+            document.body.style.overflowX = '';
+        };
+    }, []);
+
     return (
         <ContainerLayout>
             <SpotifyPlayer />
@@ -46,7 +61,7 @@ function HomePage() {
             />
             <Capivara />
             <Footer/>
-            
+
         </ContainerLayout>
     );
 }

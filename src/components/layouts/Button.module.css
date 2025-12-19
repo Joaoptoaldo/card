@@ -18,7 +18,7 @@ button.bubbly_button{
   position: relative;
   transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
-  
+
 }
 .bubbly_button:focus {
   outline: 0;
@@ -38,10 +38,10 @@ button.bubbly_button{
 .bubbly_button:before {
   display: none;
   top: -75%;
-  background-image:  
+  background-image:
     radial-gradient(circle, #ff0081 20%, transparent 20%),
     radial-gradient(circle,  transparent 20%, #ff0081 20%, transparent 30%),
-    radial-gradient(circle, #ff0081 20%, transparent 20%), 
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
     radial-gradient(circle, #ff0081 20%, transparent 20%),
     radial-gradient(circle,  transparent 10%, #ff0081 15%, transparent 20%),
     radial-gradient(circle, #ff0081 20%, transparent 20%),
@@ -54,8 +54,8 @@ button.bubbly_button{
 .bubbly_button:after {
   display: none;
   bottom: -75%;
-  background-image:  
-    radial-gradient(circle, #ff0081 20%, transparent 20%), 
+  background-image:
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
     radial-gradient(circle, #ff0081 20%, transparent 20%),
     radial-gradient(circle,  transparent 10%, #ff0081 15%, transparent 20%),
     radial-gradient(circle, #ff0081 20%, transparent 20%),
@@ -104,4 +104,30 @@ button.bubbly_button{
     background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
   background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
   }
+}
+
+/* Particle effect */
+.bubbly_button {
+  position: relative;
+  overflow: hidden;
+}
+
+.bubbly_button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff0081, transparent);
+  transform: translate(-50%, -50%);
+  animation: particleBurst 0.6s ease-out;
+  pointer-events: none;
+}
+
+@keyframes particleBurst {
+  0% { width: 0; height: 0; opacity: 1; }
+  50% { width: 100px; height: 100px; opacity: 0.5; }
+  100% { width: 200px; height: 200px; opacity: 0; }
 }
