@@ -47,7 +47,6 @@ function HomePage() {
             <Capivara />
             <Footer/>
             
-
         </ContainerLayout>
     );
 }
