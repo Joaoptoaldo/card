@@ -25,5 +25,7 @@
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    box-shadow: 0 15px 0px #ff008280;
+    text-shadow: 0 0 10px;
+    box-shadow: 0 18px 0px #632140;
+    /* cor alternativa: #ff008280;*/
 }
