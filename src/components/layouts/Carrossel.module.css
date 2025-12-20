@@ -13,6 +13,7 @@
 }
 
 .carrossel_img {
+
     width: 100%;
     margin: 0;
     padding: 0;
@@ -22,8 +23,12 @@
     width: 100%;
     height: auto;
     display: block;   
+    transition: transform 0.2s ease-out;
 }
 
+.carrossel_container:hover .carrossel_img > img {
+  transform: translateY(-2px);
+}
 /*
 .carrossel_img::before {
     content: '';

@@ -11,7 +11,7 @@ import Footer from "../layouts/Footer";
 
 function HomePage() {
     useEffect(() => {
-        document.body.style.background = 'radial-gradient(circle at top, #1a0325 0%, #1a0325 22%, #020008 65%, #000000 100%)';
+        document.body.style.background = 'radial-gradient(circle at top, #1a0325 0%, #1a0325 20%, #020008 65%, #000000 100%)';
         //document.body.style.background = 'linear-gradient(135deg, #000000 0%, #1a0033 50%, #130025ff 100%)';
         document.body.style.color = '#e2e2e2';
         document.body.style.position = 'relative';
