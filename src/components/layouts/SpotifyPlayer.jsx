@@ -13,7 +13,7 @@ function SpotifyPlayer() {
         loading="lazy"
         title="Spotify Player"
       ></iframe>
-      <p style={{fontFamily: "'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",  fontWeight: 'bold', textAlign: 'center', marginTop: '7px', fontSize: '11.60px', color: '#ffffff', margin: '-5px 0 0 0'}}>Dá play aqui antes de descer ❤️</p>
+      <p style={{fontFamily: "'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",  fontWeight: 'bold', textAlign: 'center', marginTop: '7px', fontSize: '11.60px', color: '#ffffff', margin: '-6px 0 0 0'}}>Dá play aqui antes de descer ❤️</p>
     </div>
   );
 }
