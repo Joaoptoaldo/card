@@ -1,6 +1,32 @@
 import Slider from "react-slick";
 import styles from './Carrossel.module.css';
 import anima from '../../styles/animations.module.css';
+import imagem1 from '../images/imagem1.jpg';
+import imagem2 from '../images/imagem2.jpg';
+import imagem3 from '../images/imagem3.png';
+import imagem4 from '../images/imagem4.png';
+import imagem5 from '../images/imagem5.png';
+import imagem6 from '../images/imagem6.jpg';
+import imagem7 from '../images/imagem7.jpg';
+import imagem8 from '../images/imagem8.jpg';
+import imagem9 from '../images/imagem9.jpg';
+import imagem10 from '../images/imagem10.jpg';
+import imagem11 from '../images/imagem11.jpg';
+import imagem12 from '../images/imagem12.jpg';
+import imagem13 from '../images/imagem13.jpg';
+import imagem14 from '../images/imagem14.jpg';
+import imagem15 from '../images/imagem15.jpg';
+import imagem16 from '../images/imagem16.jpg';
+import imagem17 from '../images/imagem17.jpg';
+import imagem18 from '../images/imagem18.jpg';
+import imagem19 from '../images/imagem19.jpg';
+import imagem20 from '../images/imagem20.jpg';
+import imagem21 from '../images/imagem21.jpg';
+import imagem22 from '../images/imagem22.jpg';
+import imagem23 from '../images/imagem23.jpg';
+import imagem24 from '../images/imagem24.jpg';
+import imagem25 from '../images/imagem25.jpg';
+import imagem26 from '../images/imagem26.png';
 
 const Carrossel = () => {
     const settings = {
@@ -18,76 +44,82 @@ const Carrossel = () => {
         <div className={`${styles.carrossel_container} ${anima.fadeIn}`}>
             <Slider className={styles.slider} {...settings}>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/b38486cac184e56c73c93e869504afc4" alt="" />
+                   <img src={imagem1} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/b36284321a473920b243852479c9d2fc" alt="" />
+                    <img src={imagem2} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://shop.bazarcia.com/wp-content/uploads/2022/05/Design-sem-nome-25.png" alt="" />
+                    <img src={imagem3} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-22110-i6s1ea1aqqjv1b" alt="" />
+                    <img src={imagem4} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://scontent.cdninstagram.com/v/t39.30808-6/515013270_122167717766389688_2894338927276776736_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzY3NTkxNDU3MTg3MzU4MTU2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=uvAPlv7_Eu4Q7kNvwGhv-Xk&_nc_oc=AdnyFNQ8KQ8UQMH22xJhixQ7lAgmlVBMn6Fp4obnixwuj1LoFcjkX2J91GmSO9StRYVoXLxXKomR15LevkodxfWe&_nc_ad=z-m&_nc_cid=1138&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=67GULBl5dDDMbX8sqXarNw&oh=00_AfmOBeMuO0tty_3RDYp8tWVX-wIycH0VXnxppZFZkAJJAg&oe=69463E97" alt="" />
+                    <img src={imagem25} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/deb5c93c740517e30cb812cd047f799d" alt="" />
+                    <img src={imagem5} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/474x/dc/c6/1d/dcc61d0b1ef0656b3eeb75954cb1a76b.jpg" alt="" />
+                    <img src={imagem6} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/e7/5e/b4/e75eb445870b3e3561bbb9890739c0b4.jpg" alt="" />
+                    <img src={imagem7} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://www.meuzapzap.com/imagens/thumb/meuzapzap14120822034940Screenshot20220812164708Instagram.jpg" alt="" />
+                    <img src={imagem8} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-luowve00d7c02f" alt="" />
-                </div>
-
-                <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/7e/36/3b/7e363bf6e1ab4359a15ebdb9895bfd10.jpg" alt="" />
+                    <img src={imagem9} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://marketplace.canva.com/EAF3bO_skH8/2/0/1600w/canva-caneca-com-frase-sorria-voc%C3%AA-%C3%A9-meu-amor-casal-dszKhn8vEhY.jpg" alt="" />
+                    <img src={imagem10} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/564x/65/bb/1e/65bb1e0c6ce1b7dba58a7065b02a48c6.jpg" alt="" />
+                    <img src={imagem11} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/736x/04/bb/f4/04bbf4b86e46323df9e323e878c5f96f.jpg" alt="" />
+                    <img src={imagem12} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-7.jpg" alt="" />
-                </div>
-
-                <div className={styles.carrossel_img}>
-                    <img src="https://wearsublimacoes.cdn.magazord.com.br/img/2024/12/produto/84829/c09770e9b6.jpeg" alt="" />
+                    <img src={imagem13} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://cdn.statically.io/img/meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-1-1.jpg?quality=80&f=auto" alt="" />
-                </div>
-
-                <div className={styles.carrossel_img}>
-                    <img src="https://i.pinimg.com/474x/2a/b3/cc/2ab3cc4a2cc56c7520bd5ac07931a118.jpg" alt="" />
+                    <img src={imagem14} alt="" />
                 </div>
                 <div className={styles.carrossel_img}>
-                    <img src="https://meapaixonei.com.br/wp-content/uploads/2023/06/frases-de-amor-para-casal-5.jpg" alt="" />
+                    <img src={imagem15} alt="" />
                 </div>
-               
                 <div className={styles.carrossel_img}>
-                    <img src="https://down-br.img.susercontent.com/file/01246ccdf1456305feb632e045babeed" alt="" />
+                    <img src={imagem16} alt="" />
                 </div>
-
                 <div className={styles.carrossel_img}>
-                    <img src="https://scontent.cdninstagram.com/v/t51.75761-15/479186578_17958763133908962_7255332889527486595_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzU2Nzg5NjUxOTc0NDUwNjc0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=dc5SBDU7vs8Q7kNvwFr2jaV&_nc_oc=AdktNmcRMcAhjY7tFujcBYHLP4go1S3NCqdP1VZn4Tdqy0eiWH2hladYDR3BdOMz9ro&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=re2cBrRM5y4HwVamjhO2Uw&oh=00_AfnpuBrUBVC69tMdPU4MJmz9oHNJPeoN7nI_MlOXgA4iGA&oe=69492D95" alt="" />
+                    <img src={imagem17} alt="" />
                 </div>
-                
                 <div className={styles.carrossel_img}>
-                    <img src="https://shop.bazarcia.com/wp-content/uploads/2022/03/Design-sem-nome-37.jpg" alt="" />
+                    <img src={imagem18} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem19} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem20} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem21} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem22} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem23} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem24} alt="" />
+                </div>
+                <div className={styles.carrossel_img}>
+                    <img src={imagem26} alt="" />
                 </div>
             </Slider>
         </div>        

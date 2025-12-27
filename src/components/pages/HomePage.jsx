@@ -57,7 +57,7 @@ function HomePage() {
                     "Quero estar presente em cada passo desse caminho: celebrar suas conquistas, te amparar nos dias difíceis e compartilhar as rotinas simples que nos aproximam. Prometo cuidar desse amor com atenção, te ouvindo, apoiando e fazendo do nosso cotidiano um refúgio de cumplicidade e carinho."
                 }
                 mensagem_p8={
-                    "Você não é só minha namorada. Você é a minha felicidade, meu porto seguro, meu sorriso fácil e o meu lugar favorito no mundo. Você é simplesmente o amor da minha vida inteira. Que a gente continue cultivando esse amor todos os dias"
+                    "Você não é só minha namorada. Você é a minha felicidade, meu porto seguro, meu sorriso fácil e o meu lugar favorito no mundo. Você é simplesmente o amor da minha vida. Que a gente continue cultivando esse amor todos os dias"
                 }
             />
             <Capivara />

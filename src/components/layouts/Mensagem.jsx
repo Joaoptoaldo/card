@@ -18,7 +18,7 @@ function Mensagem({ mensagem_p0, mensagem_p1, mensagem_p2, mensagem_p3, mensagem
   }, []);
   
   return (
-    <div ref={containerRef} className={styles.mensagem_container}>
+    <div ref={containerRef} className={styles.mensagem_container} style={{ marginBottom: "4rem" }}>
         <h1>Para Meu Amor:</h1>
         <div className={styles.paragrafo_romantico}>
             <p>{mensagem_p0 }</p>
