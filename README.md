@@ -1,10 +1,16 @@
 # Sobre o projeto
 
-Este foi meu **primeiro projeto em React feito de forma totalmente independente**, após concluir meus estudos iniciais sobre a ferramenta. A ideia surgiu como uma homenagem especial para a minha namorada, e também como um desafio pessoal para aplicar meus conhecimentos de forma prática.
+Este projeto nasceu, antes de tudo, como uma declaração de amor. Ele foi criado especialmente para a minha namorada, que é a principal inspiração por trás de cada detalhe, escolha visual e decisão de design. Mais do que um exercício técnico, esse projeto carrega sentimento, cuidado e intenção. É uma forma de transformar aquilo que sinto em algo concreto, visível e navegável.
 
-Durante o desenvolvimento, trabalhei com **componentes reutilizáveis**, **rotas com React Router**, **animações com ScrollReveal**, **Utilização de hooks**, **organização de pastas** e uso de **CSS Modules**.
+Se trata também do meu primeiro projeto em React desenvolvido de forma independente, após concluir meus estudos iniciais com a biblioteca. A ideia foi unir aprendizado e afeto, criando algo que representasse não só minha evolução como desenvolvedor, mas também a importância dela na minha vida.
 
-Além da parte técnica, busquei criar uma experiência visual agradável e afetiva — algo leve, bonito e funcional.
+Sua presença foi o que deu sentido ao projeto: cada componente, cada animação e cada rota foram pensados para transmitir leveza, carinho e acolhimento, características que associo diretamente a ela.
+
+Sob o ponto de vista técnico, utilizei componentes reutilizáveis, rotas com React Router, animações com ScrollReveal, hooks, CSS Modules e uma organização de pastas estruturada, sempre buscando boas práticas e clareza no código.
+
+Sendo assim, este projeto representa duas conquistas importantes para mim:
+Ser capaz de aplicar meus conhecimentos em React de forma prática e independente, e
+Ser capaz de expressar, através da tecnologia, o amor e a admiração que sinto por ela.
 
 
 ## Tecnologias e bibliotecas
@@ -26,4 +32,5 @@ O deploy é feito no GitHub Pages. Para gerar a build e publicar:
 ```sh
 npm run deploy
 ```
+
 
