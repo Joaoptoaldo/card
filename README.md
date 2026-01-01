@@ -1,3 +1,12 @@
+# Sobre o projeto
+
+Este foi meu **primeiro projeto em React feito de forma totalmente independente**, após concluir meus estudos iniciais sobre a ferramenta. A ideia surgiu como uma homenagem especial para a minha namorada, e também como um desafio pessoal para aplicar meus conhecimentos de forma prática.
+
+Durante o desenvolvimento, trabalhei com **componentes reutilizáveis**, **rotas com React Router**, **animações com ScrollReveal**, **Utilização de hooks**, **organização de pastas** e uso de **CSS Modules**.
+
+Além da parte técnica, busquei criar uma experiência visual agradável e afetiva — algo leve, bonito e funcional.
+
+
 ## Tecnologias e bibliotecas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
@@ -17,3 +26,4 @@ O deploy é feito no GitHub Pages. Para gerar a build e publicar:
 ```sh
 npm run deploy
 ```
+
